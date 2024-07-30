@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 916d8141f5694455a1684411a2d0c2ac, type: 3}
-  m_Name: LethalCompany_AssetRipperSettings
+  m_Name: NeonWhite_AssetRipperSettings
   m_EditorClassIdentifier: 
   _folderMappings:
   - key: AnimationClip
@@ -121,6 +121,10 @@ MonoBehaviour:
     sourceName: Editor
     outputPath: Editor
     exclude: 0
+  - key: Avatar
+    sourceName: Avatar
+    outputPath: Avatar
+    exclude: 0
   _foldersToCopy:
   - AnimationClip
   - AnimatorController
@@ -150,6 +154,7 @@ MonoBehaviour:
   - VideoClip
   - VisualEffectAsset
   - Scripts\Assembly-CSharp
+  - Content
   _filesToExcludeFromCopy: []
   _foldersToExcludeFromRead:
   - Scripts\Unity.Burst

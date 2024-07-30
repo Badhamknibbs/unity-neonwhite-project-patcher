@@ -1,10 +1,10 @@
 <div align="center">
-  <h1>Lethal Company Project Patcher</h1>
+  <h1>Neon White Project Patcher</h1>
 
   <img src="Assets~/header.jpg" />
 
   <p>
-    A game wrapper that generates a Unity project from Lethal Company's build that can be playable in-editor
+    A game wrapper that generates a Unity project from Neon White's build
   </p>
 </div>
 
@@ -37,7 +37,7 @@
 ## About the Project
 This tool is a game wrapper on top of the [Unity Project Patcher](https://github.com/nomnomab/unity-project-patcher).
 
-This takes a build of Lethal Company, extracts its assets/scripts/etc, and then generates a project for usage in the Unity editor.
+This takes a build of Neon White, extracts its assets/scripts/etc, and then generates a project for usage in the Unity editor.
 
 > [!IMPORTANT]  
 > This tool does not distribute game files. It simply works off of your copy of the game!
@@ -64,8 +64,8 @@ You will have to make sure you have the following before using the tool in any w
 
 ### Unity Project
 
-- Requires [Unity 2022.3.9f1](https://unity.com/releases/editor/whats-new/2022.3.9)
-- Unity HDRP pipeline (High Definition 3D)
+- Requires [Unity 2020.3.16f1](https://unity.com/releases/editor/whats-new/2020.3.16)
+- Unity URP pipeline (Universal Rendering Pipeline)
 
 Create a new Unity project with the above requirements before getting started.
 
@@ -96,7 +96,7 @@ Install with the manifest.json:
 
 ### Installing this Game Wrapper
 
-The same steps as previously, just with `https://github.com/nomnomab/unity-lc-project-patcher.git`
+The same steps as previously, just with `https://github.com/nomnomab/unity-neonwhite-project-patcher.git`
 
 ### Installing the BepInEx Wrapper
 
@@ -123,22 +123,6 @@ Estimated patch durations:
 - Already patched: 8 - 15 minutes
 
 These can vary wildly depending on system speed and project size.
-
-> [!IMPORTANT]  
-> In the HDRP wizard it may say that the Quality asset isn't assigned. It is lying, just ignore it.
-
-## Plugin Settings
-
-> [!NOTE]  
-> Can be made via `Create > Unity Project Patcher > Lethal Company Plugin Settings`
-> 
-> One will be made for you upon entering the game if one doesn't exist.
-
-![](Assets~/LethalCompanyPluginSettings.png)
-
-There are various provided patches for usage via a `LethalCompanyPluginSettings` asset. 
-
-These can be useful for debugging or quickly entering the game.
 
 ## FAQ
 

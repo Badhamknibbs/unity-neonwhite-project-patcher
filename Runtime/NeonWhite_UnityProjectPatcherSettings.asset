@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29d200711b44929311442db80f4c89, type: 3}
+  m_Name: NeonWhite_UnityProjectPatcherSettings
+  m_EditorClassIdentifier: 
+  _gameName: Neon White
+  _customGameName: 
+  _gameVersion: 2020.3.16.302446
+  _pipelineType: 1
+  _dllsToCopy:
+  - key: 
+    sourceName: AmplifyBloom.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: Coffee.UIParticle.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/steam_api64.dll
+    outputPath: Hidden~
+    exclude: 0
+  - key: 
+    sourceName: Assembly-CSharp-firstpass.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: Sirenix.OdinInspector.Attributes.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: eToileAssembly.dll
+    outputPath: 
+    exclude: 0
+  _scriptDllFoldersToCopy: []
+  _ignoredDllPrefixes:
+  - System.
+  - UnityEngine.
+  - Unity.Services.
+  _exactPackagesFound:
+  - name: com.unity.multiplayer-hlapi
+    version: 1.1.1
+    dependencies: []
+    matchType: 0
+  - name: com.unity.inputsystem
+    version: 1.2.0
+    dependencies: []
+    matchType: 0
+  - name: com.unity.postprocessing
+    version: 3.1.1
+    dependencies: []
+    matchType: 0
+  _possiblePackagesFound: []
+  _improbablePackagesFound: []
+  _gitPackages:
+  - name: com.unity.assetbundlebrowser
+    version: https://github.com/Unity-Technologies/AssetBundles-Browser.git
+  - name: com.inkle.ink-unity-integration
+    version: https://github.com/inkle/ink-unity-integration.git#upm
